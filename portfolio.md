@@ -1,7 +1,10 @@
 ---
 layout: page
-title: Elements
+title: Portfolio
+description: Lorem ipsum dolor est
+image: assets/images/pic11.jpg
 nav-menu: true
+show_file: true
 ---
 
 <!-- Main -->
@@ -11,7 +14,7 @@ nav-menu: true
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h1>About Us</h1>
+			<h1>Portfolio</h1>
 		</header>
 
 <!-- Content -->
