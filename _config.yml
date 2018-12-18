@@ -1,0 +1,36 @@
+# site settings
+title: Gunpowder Digital
+subtitle: by Richard C. Skinner
+email: info@gunpowderdigital.com
+description: A digital agency that strives for excellence<br /> through in-depth understanding to create beautiful solutions.
+url: http://www.gunpowderdigital.com # the base hostname & protocol for your site
+#baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
+author:
+street_address: 5a Swallow Court, Swallowfields
+city: Welwyn Garden City
+state: Hertfordshire
+zip_code: AL7 1SB
+country: United Kingdom
+phone: +44 (776) 641-5880
+
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
+
+# social settings
+500px_url:
+facebook_url:
+github_url:
+gitlab_url: https://gitlab.com/u/andrewbanchich
+googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
+instagram_url: https://instagram.com
+linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+pinterest_url:
+slack_url:
+twitter_url: https://twitter.com/andrewbanchich
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
