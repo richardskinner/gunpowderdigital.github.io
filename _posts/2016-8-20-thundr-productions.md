@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Thundr Productions
-description: Feugiat amet tempus
+description: A complete redesign of their record label packed full of functionality from artists, event listings and store access.
 image: assets/images/thundr-productions.jpg
 ---
 

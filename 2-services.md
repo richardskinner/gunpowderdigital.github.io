@@ -16,7 +16,6 @@ nav-menu: true
 		<header class="major">
 			<h2>Creative Services</h2>
 		</header>
-		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
 	</div>
 </section>
 <section class="spotlights">
@@ -29,10 +28,7 @@ nav-menu: true
 				<header class="major">
 					<h3>Web Design</h3>
 				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
-				</ul>
+				<p>Design is much more than just placing a few images and links on a page. We emcompass the full range of design priniciples, UX, UI along with making a web site look incredible.</p>
 			</div>
 		</div>
 	</section>
@@ -45,10 +41,7 @@ nav-menu: true
 				<header class="major">
 					<h3>Application Build</h3>
 				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
-				</ul>
+				<p>This is our bread and butter of what we do. Building functional web applications, using the latest technology and approaches in digital product development.</p>
 			</div>
 		</div>
 	</section>
@@ -60,7 +53,6 @@ nav-menu: true
 		<header class="major">
 			<h2>Marketing Services</h2>
 		</header>
-		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
 	</div>
 </section>
 
@@ -74,10 +66,7 @@ nav-menu: true
 				<header class="major">
 					<h3>SEO</h3>
 				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
-				</ul>
+				<p>A major factor in whether a website is successful or not is how well a customer can find you. One way of doing this is allowing a search to rank a site. We use a wealth or knowledge and experience to help a site perform well in search results.</p>
 			</div>
 		</div>
 	</section>
@@ -90,10 +79,7 @@ nav-menu: true
 				<header class="major">
 					<h3>PPC</h3>
 				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
-				</ul>
+				<p>Our expert knowledge in pay per click services focus on maximising your ROI through expertly crafted campaigns. All campaigns are carefully crafted and monitored to ensure you get returns you'll be proud of.</p>
 			</div>
 		</div>
 	</section>
