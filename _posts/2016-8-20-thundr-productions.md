@@ -19,6 +19,6 @@ image: assets/images/thundr-productions.jpg
     <li>Newsletter Signup</li>
 </ul>
 
-<h2></h2>
+<h2>Technology</h2>
 
 <p><strong>Wordpress, PHP, HTML, CSS, Javascript / jQuery</strong></p>
