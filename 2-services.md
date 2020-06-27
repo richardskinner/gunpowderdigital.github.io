@@ -93,7 +93,7 @@ nav-menu: true
 		</header>
 		<p>We would love to hear about your next project and have a chat about how we can help.</p>
 		<ul class="actions">
-			<li><a href="generic.html" class="button next">Get Started</a></li>
+			<li><a href="#contact" class="button next">Get Started</a></li>
 		</ul>
 	</div>
 </section>
