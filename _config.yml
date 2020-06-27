@@ -11,7 +11,7 @@ city: Welwyn Garden City
 state: Hertfordshire
 zip_code: AL7 1SB
 country: United Kingdom
-phone: +44 (776) 641-5880
+phone: +44 (0) 776641-5880
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
