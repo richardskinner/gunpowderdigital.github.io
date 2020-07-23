@@ -1,36 +1,102 @@
-# site settings
-title: Gunpowder Digital
-subtitle: by Richard C. Skinner
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+# Site settings
+title: Gunpowder Digital Ltd
 email: info@gunpowderdigital.com
-description: A digital agency that strives for excellence<br /> through in-depth understanding to create beautiful solutions.
-url: http://www.gunpowderdigital.com # the base hostname & protocol for your site
-#baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
-author:
+description: "A digital agency that strives for excellence<br /> through in-depth understanding to create beautiful solutions."
+baseurl: ""
+url: https://www.gunpowderdigital.com # the base hostname & protocol for your site
+author: Gunpowder Digital Ltd <info@gunpowderdigital.com>
 street_address: 5a Swallow Court, Swallowfields
 city: Welwyn Garden City
 state: Hertfordshire
 zip_code: AL7 1SB
 country: United Kingdom
 phone: +44 (0) 776641-5880
+twitter_username: jekyllrb
+github_username:  jekyll
 
-# homepage tiles
-tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 6
+# Team names, titles and social links
+people:
+- name: Kay Garland
+  pic: 6
+  position: Lead Designer
+  social:
+#    - title: twitter
+#      url: #
+#    - title: facebook
+#      url: #
+#    - title: stack-overflow
+#      url: #
 
-# social settings
-500px_url:
-facebook_url:
-github_url:
-gitlab_url: https://gitlab.com/u/andrewbanchich
-googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-instagram_url: https://instagram.com
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
-pinterest_url:
-slack_url:
-twitter_url: https://twitter.com/andrewbanchich
+- name: Sarah Parker
+  pic: 5
+  position: Lead Marketer
+  social:
+#    - title: twitter
+#      url: #
+#    - title: facebook
+#      url: #
+#    - title: linkedin
+#      url: #
 
-# build settings
+- name: Richard Skinner
+  pic: 4
+  position: Lead Developer
+  social:
+#    - title: twitter
+#      url: #
+#    - title: facebook
+#      url: #
+#    - title: google-plus
+#      url: #
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+#  - title: twitter
+#    url: http://twitter.com/jekyllrb
+#  - title: facebook
+#    url:
+#  - title: stack-overflow
+#    url: http://stackoverflow.com/questions/tagged/jekyll
+#  - title: bitbucket
+#    url: http://bitbucket.org/jekyll
+#  - title: github
+#    url: http://github.com/jekyll
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 3481 Melrose Place
+  - line: Beverly Hills, CA 90210
+
+# Build settings
 markdown: kramdown
+permalink: pretty
+theme: minima
+plugins:
+  - jekyll-feed
 
-sass:
-  style: compressed
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
