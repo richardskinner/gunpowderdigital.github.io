@@ -1,7 +1,21 @@
 <head>
-	<title>{{ site.title }}</title>
-	<meta charset="utf-8" />
+	<title>{{ page.title }}</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="{{ page.description }}" />
+    <meta name="author" content="{{ site.author }}" />
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:description" content="{{ page.description }}" />
+    <meta property="og:url" content="https://www.gunpowderdigital.com" />
+    <meta property="og:site_name" content="Gunpowder Digital Ltd" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+    <link rel="canonical" href="https://www.gunpowderdigital.com">
+
 	<!--[if lte IE 8]><script src="{{ "assets/js/ie/html5shiv.js" | relative_url }}"></script><![endif]-->
 	<link rel="stylesheet" href="{{ "assets/css/main.css" | relative_url }}" />
 	<!--[if lte IE 9]><link rel="stylesheet" href="{{ "assets/css/ie9.css" | relative_url }}" /><![endif]-->

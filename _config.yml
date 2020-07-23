@@ -5,7 +5,7 @@ email: info@gunpowderdigital.com
 description: A digital agency that strives for excellence<br /> through in-depth understanding to create beautiful solutions.
 url: http://www.gunpowderdigital.com # the base hostname & protocol for your site
 #baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
-author:
+author: Gunpowder Digital Ltd <info@gunpowderdigital.com>
 street_address: 5a Swallow Court, Swallowfields
 city: Welwyn Garden City
 state: Hertfordshire
