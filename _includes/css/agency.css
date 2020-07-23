@@ -7,6 +7,7 @@
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-display: fallback;
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
@@ -20,6 +21,7 @@ body {
 
 p {
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-display: fallback;
     font-size: 14px;
     line-height: 1.75;
 }
@@ -55,6 +57,7 @@ h5,
 h6 {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
+    font-display: fallback;
     font-weight: 700;
 }
 
@@ -74,6 +77,7 @@ h6 {
     border-color: #{{ site.data.template.color.primary }};
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
+    font-display: fallback;
     font-weight: 700;
     color: #fff;
     background-color: #{{ site.data.template.color.primary }};
@@ -125,6 +129,7 @@ fieldset[disabled] .btn-primary.active {
     border-radius: 3px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
+    font-display: fallback;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
@@ -209,6 +214,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
+    font-display: fallback;
     font-weight: 400;
     letter-spacing: 1px;
     color: #fff;
@@ -287,6 +293,7 @@ header .intro-text {
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: {{ site.data.template.font.secondary }};
+    font-display: fallback;
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
@@ -296,6 +303,7 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
+    font-display: fallback;
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
@@ -310,6 +318,7 @@ header .intro-text .intro-heading {
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-family: {{ site.data.template.font.secondary }};
+        font-display: fallback;
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
@@ -319,6 +328,7 @@ header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: {{ site.data.template.font.primary }};
+        font-display: fallback;
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
@@ -339,6 +349,7 @@ section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
     font-family: {{ site.data.template.font.secondary }};
+    font-display: fallback;
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
@@ -419,6 +430,7 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
     font-family: {{ site.data.template.font.secondary }};
+    font-display: fallback;
     font-size: 16px;
     font-style: italic;
 }
@@ -693,6 +705,7 @@ section#contact .form-control:focus {
 section#contact::-webkit-input-placeholder {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
+    font-display: fallback;
     font-weight: 700;
     color: #bbb;
 }
@@ -700,6 +713,7 @@ section#contact::-webkit-input-placeholder {
 section#contact:-moz-placeholder {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
+    font-display: fallback;
     font-weight: 700;
     color: #bbb;
 }
@@ -714,6 +728,7 @@ section#contact::-moz-placeholder {
 section#contact:-ms-input-placeholder {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
+    font-display: fallback;
     font-weight: 700;
     color: #bbb;
 }
@@ -731,6 +746,7 @@ footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
     font-family: {{ site.data.template.font.primary }};
+    font-display: fallback;
     line-height: 40px;
 }
 
@@ -739,6 +755,7 @@ footer ul.quicklinks {
     text-transform: uppercase;
     text-transform: none;
     font-family: {{ site.data.template.font.primary }};
+    font-display: fallback;
     line-height: 40px;
 }
 
@@ -797,6 +814,7 @@ ul.social-buttons li a:active {
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
     font-family: {{ site.data.template.font.secondary }};
+    font-display: fallback;
     font-size: 16px;
     font-style: italic;
 }
