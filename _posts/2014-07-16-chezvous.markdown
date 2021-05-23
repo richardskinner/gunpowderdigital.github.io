@@ -13,6 +13,6 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: Chez Vous Beauty is a starup looking to capitalise on connecting beauticians with clients. The main goal is to provide top quality services wto customers all the while giving the beautician the lions share of the profits. We at Gun powder Digital we're absolutely privileged to be working with such an innovative team. The project used the latest technology creating a Partner portal to add their services, along with a website where customers could search for the best beauticians in their local area. 
 permalink: /portfolio/chez-vous-beauty
 ---
