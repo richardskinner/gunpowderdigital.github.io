@@ -5,7 +5,7 @@
  */
 
 body {
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-display: swap;
     color: #{{ site.data.template.color.secondary-dark }};
@@ -177,6 +177,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default {
+    display: flex;
     border-color: transparent;
     background-color: #222;
 }
@@ -184,6 +185,19 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     color: #{{ site.data.template.color.primary }};
+    float: none;
+}
+
+.navbar-default .navbar-brand.logo {
+    display: block;
+    overflow: hidden;
+    width: 75%;
+    float: left;
+}
+
+.navbar-default .navbar-brand.logo img {
+    margin-top: -25%;
+    width: 100%;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -241,6 +255,10 @@ fieldset[disabled] .btn-xl.active {
     background-color: #{{ site.data.template.color.secondary }};
 }
 
+.navbar-default .navbar-header {
+    flex: 1;
+}
+
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
@@ -272,6 +290,12 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
+@media (max-width:767px) {
+    .navbar-default {
+        flex-direction: column;
+    }
+}
+
 header {
     text-align: center;
     color: #fff;
@@ -290,23 +314,31 @@ header .intro-text {
     padding-bottom: 50px;
 }
 
-header .intro-text .intro-lead-in {
+header .intro-text .intro-lead-in h1 {
     margin-bottom: 25px;
     font-family: {{ site.data.template.font.secondary }};
     font-display: swap;
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
+    font-weight: 100;
 }
 
-header .intro-text .intro-heading {
+header .intro-text .intro-heading h2 {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-display: swap;
-    font-size: 50px;
+    font-size: 8vh;
     font-weight: 700;
-    line-height: 50px;
+    line-height: 60px;
+}
+
+@media(max-width:767px) {
+    header .intro-text .intro-heading h2 {
+        font-size: 4vh;
+        line-height: 35px;
+    }
 }
 
 @media(min-width:768px) {
@@ -335,17 +367,17 @@ header .intro-text .intro-heading {
     }
 }
 
-section {
+.index section {
     padding: 100px 0;
 }
 
-section h2.section-heading {
+.index section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
 }
 
-section h3.section-subheading {
+.index section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
     font-family: {{ site.data.template.font.secondary }};
@@ -356,7 +388,7 @@ section h3.section-subheading {
 }
 
 @media(min-width:768px) {
-    section {
+    .index section {
         padding: 150px 0;
     }
 }
@@ -883,12 +915,4 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
-}
-
-.logo {
-    overflow: hidden;
-}
-
-.logo img {
-    margin-top: -25%;
 }

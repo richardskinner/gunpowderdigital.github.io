@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+    <body id="page-top" class="page">
+
+      {% include header.html %}
+
+      <section class="page container">
+        <h3>The Project</h3>
+        <p>{{ page.description }}</p>
+        {% if page.projectWebsite %}
+        <a href="{{ page.projectWebsite }}" target="_blank">Visit {{ page.title }} Project</a>
+        {% endif %}
+        <h3>Gallery</h3>
+        <img src="/img/portfolio/{{ page.img }}" width="100%" />
+      </section>
+
+      {% include footer.html %}
+      {% include js.html %}
+
+    </body>
+</html>

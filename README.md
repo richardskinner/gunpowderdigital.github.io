@@ -32,12 +32,13 @@ echo 'eval "$(rbenv init -)"' >> ~/.zprofile
 ### set ruby version for a specific dir
 `rbenv local 2.4.1`
 
-### set ruby version globally
+### OR set ruby version globally
 `rbenv global 2.4.1`
 
+### THIS STEP IS IMPORTANT TO RELOAD CONFIG
 `rbenv rehash`
 
-## Staring Jekyll
+## Starting Jekyll
 
 ```
 gem install bundler jekyll

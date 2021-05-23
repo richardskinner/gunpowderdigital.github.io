@@ -1,0 +1,17 @@
+---
+title: Huboo
+subtitle: eCommerce Fulfilment
+intro: Huboo
+heading: eCommerce Fulfilment
+layout: post
+modal-id: 2
+date: 2014-07-17
+img: huboo.jpeg
+thumbnail: huboo.jpeg
+alt: image-alt
+project-date: April 2014
+client: Huboo
+category: Content Management System
+description: Huboo are the award winning fulfilment company taking the U.K. by storm. Gunpowder Digital were brought in to help with their transition to the new EU rules developing new Brexit features in their current fulfilment customer facing system.
+permalink: /portfolio/huboo
+---
