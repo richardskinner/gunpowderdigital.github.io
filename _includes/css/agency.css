@@ -191,14 +191,12 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand.logo {
     display: block;
     overflow: hidden;
-    width: 75%;
     float: left;
 }
 
 .navbar-default .navbar-brand.logo img {
-    margin-top: -17%;
+    margin-top: -120px;
     max-width: 450px;
-    width: 75%;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -291,7 +289,17 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
+@media (max-width:768px) {
+    .navbar-default .navbar-brand.logo img {
+        margin-top: -25%;
+        width: 100%;
+    }
+}
+
 @media (max-width:767px) {
+    .navbar-default .navbar-brand.logo {
+        width: 75%;
+    }
     .navbar-default .navbar-brand.logo img {
         margin-top: -25%;
         width: 100%;
